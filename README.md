@@ -33,10 +33,12 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
 
  **Generate and distribute SSH key**
  1. Login as root
- 2. Run following command (accept default settings):
- #ssh-keygen
+ 2. Run following command (accept default settings)
+
+ _#ssh-keygen_
  3. Copy SSH key to localhost
- #ssh-copy-id localhost
+
+ _#ssh-copy-id localhost_
 
  **WARNING**
 
