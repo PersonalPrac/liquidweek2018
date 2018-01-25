@@ -21,18 +21,18 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
 
  **Debina/Ubuntu:**
 
- $ sudo apt-get update
+ _$ sudo apt-get update_
 
- $ sudo apt-get install software-properties-common
+ _$ sudo apt-get install software-properties-common_
 
- $ sudo apt-add-repository ppa:ansible/ansible
+ _$ sudo apt-add-repository ppa:ansible/ansible_
 
- $ sudo apt-get update
+ _$ sudo apt-get update_
 
- $ sudo apt-get install ansible
+ _$ sudo apt-get install ansible_
 
 
-by Pawel Osobinski (pawel.osobinski@accenture.com)
+by Pawel Osobinski (@accenture.com)
 
 Based on
 https://github.com/ansible/ansible-examples
