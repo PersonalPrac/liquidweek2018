@@ -21,7 +21,7 @@ _# ssh-copy-id localhost_
 **Please do not use root account in ANY real implementation - this is not recommended**
 
 Clone git repository with Ansible liquidweek2018 examples
-
+---------------------
 _# git clone https://github.com/osobinp/liquidweek2018.git
 
 ._
