@@ -36,9 +36,11 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
  2. Run following command (accept default settings)
 
  _#ssh-keygen_
+
  3. Copy SSH key to localhost
 
  _#ssh-copy-id localhost_
+
  4. Accept the figerprint and type root password
  5. You should be able to login to localhost without typing a password
 
