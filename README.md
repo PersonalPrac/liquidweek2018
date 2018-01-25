@@ -1,6 +1,32 @@
 # Liquid Week 2018
 
+Setup lab environment
+---------------------
+Generate and distribute SSH key
+---------------------
+1. Login as root
+2. Run following command (accept default settings)
 
+_# ssh-keygen_
+
+3. Copy SSH key to localhost
+
+_# ssh-copy-id localhost_
+
+4. Accept the figerprint and type root password
+5. You should be able to login to localhost without typing a password
+
+**WARNING**
+
+**Please do not use root account in ANY real implementation - this is not recommended**
+
+Clone git repository with Ansible liquidweek2018 examples
+
+_# git clone https://github.com/osobinp/liquidweek2018.git
+
+._
+Setup lab environment @home.
+---------------------
 How to install Oracle VirtualBox
 ---------------------
 https://www.virtualbox.org/
@@ -29,29 +55,7 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
 
  _$ sudo apt-get update_
 
- _$ sudo apt-get install ansible_
-
- Generate and distribute SSH key
- ---------------------
- 1. Login as root
- 2. Run following command (accept default settings)
-
- _# ssh-keygen_
-
- 3. Copy SSH key to localhost
-
- _# ssh-copy-id localhost_
-
- 4. Accept the figerprint and type root password
- 5. You should be able to login to localhost without typing a password
-
- **WARNING**
-
- **Please do not use root account in ANY real implementation - this is not recommended**
-
- Clone git repository with Ansible liquidweek2018 examples
-
- _# git clone https://github.com/osobinp/liquidweek2018.git_
+ _$ sudo apt-get install ansible git_
 
 
 
