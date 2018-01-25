@@ -15,12 +15,13 @@ Manual setup on your laptop or pc with installed Linux
 ---------------------
 http://docs.ansible.com/ansible/latest/intro_installation.html
 
- CentOS:
- $ sudo yum install ansible git
+ **CentOS:**
 
- Debina/Ubuntu:
+ *$ sudo yum install ansible git*
 
- $ sudo apt-get update
+ **Debina/Ubuntu:**
+
+ *$ sudo apt-get update
 
  $ sudo apt-get install software-properties-common
 
@@ -28,8 +29,7 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
 
  $ sudo apt-get update
 
- $ sudo apt-get install ansible
-
+ $ sudo apt-get install ansible*
 
 
 by Pawel Osobinski (pawel.osobinski@accenture.com)
