@@ -24,6 +24,7 @@ Clone git repository with Ansible liquidweek2018 examples
 ---------------------
  _# git clone https://github.com/osobinp/liquidweek2018.git_
 
+
 Setup lab environment @home.
 ---------------------
 How to install Oracle VirtualBox
