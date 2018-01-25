@@ -32,14 +32,15 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
  _$ sudo apt-get install ansible_
 
  **Generate and distribute SSH key**
- 1. Login as root*
+ 1. Login as root
  2. Run following command (accept default settings):
- # ssh-keygen
+ #ssh-keygen
  3. Copy SSH key to localhost
- # ssh-copy-id localhost
+ #ssh-copy-id localhost
 
  **WARNING**
- **Please do not use root account in ANY real implementation - this is unsafe and not recommended**
+
+ **Please do not use root account in ANY real implementation - this is not recommended**
 
 
 by Pawel Osobinski (@accenture.com)
