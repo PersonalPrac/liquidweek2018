@@ -17,11 +17,11 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
 
  **CentOS:**
 
- *$ sudo yum install ansible git*
+ <dt>$ sudo yum install ansible git </dt>
 
  **Debina/Ubuntu:**
 
- *$ sudo apt-get update
+ <dt>$ sudo apt-get update
 
  $ sudo apt-get install software-properties-common
 
@@ -29,7 +29,7 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
 
  $ sudo apt-get update
 
- $ sudo apt-get install ansible*
+ $ sudo apt-get install ansible </dt>
 
 
 by Pawel Osobinski (pawel.osobinski@accenture.com)
