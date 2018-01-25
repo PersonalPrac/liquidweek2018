@@ -58,7 +58,8 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
  _$ sudo apt-get install ansible git_
 
 
-
+<br>
+<br>
 by Pawel Osobinski (@accenture.com)
 
 Based on
