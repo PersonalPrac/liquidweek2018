@@ -24,17 +24,6 @@ Manual steps on laptop or PC with installed Linux (if you don't want to use env_
 
 http://docs.ansible.com/ansible/latest/intro_installation.html
 
-2. Generate SSH key (accept default options)
-
-```bash
-  # ssh_keygen
-```
-
-3. Copy the key to localhost server (so you don't need to type passwords) - type user/root password when prompted
-
-```bash
-  # ssh-copy-id localhost
-```
 
 4. Clone git repository with Ansible liquidweek2018 examples
 
@@ -62,7 +51,19 @@ will do the job. Then
 	# ansible-playbook -i hosts env_preparation.yml --ask-pass
 ```
 
+6. Logout from current user. Login as liquid user
 
+2. Generate SSH key (accept default options)
+
+```bash
+  # ssh_keygen
+```
+
+3. Copy the key to localhost server (so you don't need to type passwords) - type user/root password when prompted
+
+```bash
+  # ssh-copy-id localhost
+```
 
 
 
