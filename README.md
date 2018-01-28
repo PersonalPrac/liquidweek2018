@@ -26,7 +26,7 @@
 
 <br>
 
-## Setup lab environment @home system
+## Setup lab environment @home
 Follow the instructions from lab_preparation:
 
 https://github.com/osobinp/liquidweek2018/tree/master/lab_preparation
