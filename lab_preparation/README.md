@@ -10,9 +10,10 @@ Importing OVA file to VirtualBox
 ---------------------
 https://www.youtube.com/watch?v=ZCfRtQ7-bh8
 
-Manual steps on laptop or PC with installed Linux
+<br>
+Manual steps on laptop or PC with installed Linux (if you don't want to use env_preparation playbook)
 ---------------------
-
+http://docs.ansible.com/ansible/latest/intro_installation.html
 
 
 Clone git repository with Ansible liquidweek2018 examples
