@@ -16,6 +16,7 @@ Set the name of the user in username variable then run the playbook, like this:
 
 ## (Optional) Environment preparation
 This playbook allows to quickly setup testing environment for workshops on Linux system.
+
 All hosts should be ready - this playbook can be used when you want to setup your own testing environment.
 
 On destination server it will:
@@ -23,6 +24,17 @@ On destination server it will:
 2. Create liquid user (used in workshops)
 
 In order to setup the environment:
+
+**Make sure all hosts from the scope are included to /etc/ssh/known_hosts**
+
+Sometimes simple:
+
+```bash
+  # sudo cp .ssh/known_hosts /etc/ssh/
+```
+
+will do the job
+
 ```bash
   # export ANSIBLE_HOST_KEY_CHECKING=false
 ```
