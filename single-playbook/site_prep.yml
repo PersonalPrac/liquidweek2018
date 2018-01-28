@@ -1,5 +1,5 @@
 ---
-# This playbook deploys a simple standalone Tomcat 7 server.
+# This playbook deploys a simple standalone setup.
 
 - hosts: all
   remote_user: root
@@ -7,6 +7,20 @@
   become_method: sudo
   vars:
     username: liquid
-    
+    password: $1$liquid$2ak0W/7tfA.HgMLh3KPRq/
+
   tasks:
-  - "yum | install ansible vim git"
+  - name: "yum | install ansible vim git"
+    yum: name={{ item }} state=latest
+    with_items:
+      - ansible
+      - git
+      - vim
+
+  - name: "user | create {{ username }}"
+    user:
+      name: {{ username }}
+      comment: {{ username }}
+      uid: 2000
+      group: adm
+      password: {{ password }}
