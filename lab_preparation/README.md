@@ -97,6 +97,6 @@ will do the job.
 
 11. Follow the instructions from the presentation
 
-**Steps can also be done on remote machine - change hosts file and distribute ssh key to take effect*
+**Steps can also be done on remote machine - change hosts file and distribute ssh key to take effect**
 
 **Have fun ! :)**
