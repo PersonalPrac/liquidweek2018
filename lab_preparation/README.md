@@ -10,6 +10,10 @@ Importing OVA file to VirtualBox
 ---------------------
 https://www.youtube.com/watch?v=ZCfRtQ7-bh8
 
+CentOS ISO files
+---------------------
+http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1708.iso
+
 <br>
 Manual steps on laptop or PC with installed Linux (if you don't want to use env_preparation playbook)
 ---------------------
@@ -19,8 +23,10 @@ Manual steps on laptop or PC with installed Linux (if you don't want to use env_
 1. Install git (use su - or sudo to become root if you are not already)
 
 ```bash
-	$ sudo yum install git ansible -y
+	$ sudo yum install git -y
 ```
+
+Optionally install ansible
 
 http://docs.ansible.com/ansible/latest/intro_installation.html
 
