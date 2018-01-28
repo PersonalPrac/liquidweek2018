@@ -2,23 +2,23 @@
 
 **Make sure you system is connected to the Internet**
 
-## How to install Oracle VirtualBox
+### How to install Oracle VirtualBox
 
 https://www.virtualbox.org/
 
 https://www.youtube.com/watch?v=63_kPIQUPp8
 
-## Importing OVA file to VirtualBox
+### Importing OVA file to VirtualBox
 
 https://www.youtube.com/watch?v=ZCfRtQ7-bh8
 
-## CentOS installation ISO
+### CentOS installation ISO
 
 http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1708.iso
 
 <br>
 
-## Manual steps on laptop or PC with installed Linux
+# Manual steps on laptop or PC with installed Linux
 
 **In below examples we assume you have root access to the system**
 
@@ -88,6 +88,12 @@ will do the job.
 # ssh-copy-id localhost
 ```
 
-8. Follow the instructions from the presentation
+8. Clone git repository with Ansible liquidweek2018 examples (or copy it from root account)
 
-9. **Have fun ! :)**
+```bash
+# git clone https://github.com/osobinp/liquidweek2018.git
+```
+
+9. Follow the instructions from the presentation
+
+10. **Have fun ! :)**
