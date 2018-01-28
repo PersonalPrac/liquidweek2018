@@ -1,5 +1,13 @@
 ---
 # This playbook deploys a simple standalone setup.
+- hosts: all
+  remote_user: root
+  vars_prompt:
+  - name: "root_creds"
+    prompt: "Enter root credentials"
+    private: yes
+  tasks:
+  - debug: msg="{{ root_creds }} - haslo"
 
 - hosts: all
   remote_user: root
