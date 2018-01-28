@@ -18,7 +18,9 @@ Generate and distribute SSH key
 
 **WARNING**
 
-**Please do not use root account in ANY real implementation - this is not recommended**
+**We use privileged account (root) to simplify the examples**
+**In real scenario please use regular user account with proper sudo rights**
+**For more info please visit : http://docs.ansible.com/ansible/latest/become.html#becoming-an-unprivileged-user**
 
 Clone git repository with Ansible liquidweek2018 examples
 ---------------------
@@ -38,7 +40,7 @@ Importing OVA file to VirtualBox
 ---------------------
 https://www.youtube.com/watch?v=ZCfRtQ7-bh8
 
-Manual setup on your laptop or pc with installed Linux
+Manual steps on laptop or PC with installed Linux
 ---------------------
 http://docs.ansible.com/ansible/latest/intro_installation.html
 
