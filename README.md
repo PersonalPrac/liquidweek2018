@@ -7,7 +7,7 @@ Generate and distribute SSH key
 1. Login as root
 2. Run following command (accept default settings)
 ```bash
-  ssh-keygen
+  # ssh-keygen
 ```
 3. Copy SSH key to localhost
 
