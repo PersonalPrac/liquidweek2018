@@ -38,7 +38,7 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
 3. Generate SSH key (accept default options) from root account
 
 ```bash
-# ssh_keygen
+# ssh-keygen
 ```
 
 4. Copy the key to localhost server (type root password)
@@ -79,7 +79,7 @@ will do the job.
 8. Generate SSH key (accept default options) for liquid user
 
 ```bash
-# ssh_keygen
+# ssh-keygen
 ```
 
 9. Copy the key to localhost server (so you don't need to type passwords) - type liquid user password
