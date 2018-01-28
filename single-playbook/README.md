@@ -24,7 +24,7 @@ On destination server it will:
 2. Create liquid user (used in workshops)
 
 In order to setup the environment:
-
+Edit hosts with name(s) (ip's) of host(s) which needs to be setup
 **Make sure all hosts from the scope are included to /etc/ssh/known_hosts**
 
 Sometimes simple:
@@ -38,7 +38,6 @@ will do the job
 ```bash
   # export ANSIBLE_HOST_KEY_CHECKING=false
 ```
-Edit hosts with names of hosts which needs to be setup
 
 Run playbook + provide ssh password for root account on remote server(s)
 ```bash
