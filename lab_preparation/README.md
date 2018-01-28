@@ -46,8 +46,8 @@ https://ivanshn.wordpress.com/2013/04/15/add-a-new-host-to-know_hosts/
 Sometimes simple:
 
 ```bash
-	# ssh localhost (accept fingerprint)
-  # sudo cp .ssh/known_hosts /etc/ssh/
+# ssh localhost (accept fingerprint)
+# sudo cp .ssh/known_hosts /etc/ssh/
 ```
 
 will do the job.
