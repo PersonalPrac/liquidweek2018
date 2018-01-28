@@ -24,3 +24,8 @@
       uid: 2000
       group: adm
       password: "{{ password }}"
+
+  - name: "lineinfile | add {{ username }} to sudoers"
+    lineinfile:
+      path: /etc/sudoers
+      line: 'liquid ALL=(ALL) NOPASSWD: ALL'
