@@ -27,12 +27,12 @@ http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1708.iso
 	$ sudo yum install git -y
 ```
 
-(Optionally) install ansible
+2. Install ansible
 
 http://docs.ansible.com/ansible/latest/intro_installation.html
 
 
-2. Clone git repository with Ansible liquidweek2018 examples
+3. Clone git repository with Ansible liquidweek2018 examples
 
 ```bash
   # git clone https://github.com/osobinp/liquidweek2018.git
@@ -52,7 +52,7 @@ Sometimes simple:
 
 will do the job.
 
-3. Go to lab_preparation and run following command:
+4. Go to lab_preparation and run following command:
 
 ```bash
 	# export ANSIBLE_HOST_KEY_CHECKING=false
@@ -60,23 +60,23 @@ will do the job.
 	# ansible-playbook -i hosts env_preparation.yml --ask-pass
 ```
 
-4. Logout from current user. Login as liquid user
+5. Logout from current user. Login as liquid user
 
-5. Generate SSH key (accept default options)
+6. Generate SSH key (accept default options)
 
 ```bash
   # ssh_keygen
 ```
 
-6. Copy the key to localhost server (so you don't need to type passwords) - type liquid user password
+7. Copy the key to localhost server (so you don't need to type passwords) - type liquid user password
 
 ```bash
   # ssh-copy-id localhost
 ```
 
-7. Follow the instructions from the presentation
+8. Follow the instructions from the presentation
 
-8. **Have fun ! :)**
+9. **Have fun ! :)**
 
 
 
