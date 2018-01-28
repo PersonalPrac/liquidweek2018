@@ -24,9 +24,10 @@
 
 6. **Have fun ! :)**
 
+<br>
 
 ## Setup lab environment @home system
-1. Follow the instructions from lab_preparation:
+Follow the instructions from lab_preparation:
 
 https://github.com/osobinp/liquidweek2018/tree/master/lab_preparation
 
