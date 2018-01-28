@@ -1,20 +1,5 @@
 ---
-# This playbook deploys a simple standalone setup.
-- hosts: all
-  remote_user: root
-  gather_facts: false
-  vars_prompt:
-  - name: "root_creds"
-    prompt: "Enter root credentials"
-    private: yes
-  tasks:
-  - name: "expect | ssh-copy-id to remote host"
-    expect:
-      command: ssh-copy-id "{{ inventory_hostname }}"
-      responses:
-        Question:
-          - "{{ root_creds }}"
-
+# This playbook deploys a simple standalone setup. add --ask-pass to distribute the change in prior
 
 - hosts: all
   remote_user: root
