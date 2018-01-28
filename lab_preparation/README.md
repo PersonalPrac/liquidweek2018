@@ -16,7 +16,8 @@ Manual steps on laptop or PC with installed Linux (if you don't want to use env_
 
 0. Login to VM (either as root or account which you created during the installation process)
 
-1. Install ansible and git (# sudo yum install git ansible)
+1. Install ansible and git (# sudo yum install git ansible -y)
+
 http://docs.ansible.com/ansible/latest/intro_installation.html
 
 2. Generate SSH key (accept default options)
@@ -40,20 +41,19 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
 5. Go to lab_preparation and run following command:
 
 **Make sure localhost is included to /etc/ssh/known_hosts**
+
 https://ivanshn.wordpress.com/2013/04/15/add-a-new-host-to-know_hosts/
+
 Sometimes simple:
 
 ```bash
   # sudo cp .ssh/known_hosts /etc/ssh/
 ```
 
-will do the job
+will do the job. Then
 
 ```bash
   # export ANSIBLE_HOST_KEY_CHECKING=false
-```
-
-```bash
 	# cd ./liquidweek2018/lab_preparation
 	# ansible-playbook -i hosts env_preparation.yml --ask-pass
 ```
