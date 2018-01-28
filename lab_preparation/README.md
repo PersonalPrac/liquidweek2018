@@ -1,3 +1,26 @@
+Setup lab environment @home.
+---------------------
+## How to install Oracle VirtualBox
+
+https://www.virtualbox.org/
+
+https://www.youtube.com/watch?v=63_kPIQUPp8
+
+Importing OVA file to VirtualBox
+---------------------
+https://www.youtube.com/watch?v=ZCfRtQ7-bh8
+
+Manual steps on laptop or PC with installed Linux
+---------------------
+
+
+
+Clone git repository with Ansible liquidweek2018 examples
+---------------------
+```bash
+  # git clone https://github.com/osobinp/liquidweek2018.git
+```
+
 ## (Optional) Environment preparation
 This playbook allows to quickly setup testing environment for workshops on Linux system.
 
@@ -33,3 +56,6 @@ Run playbook + provide ssh password for root account on remote server(s)
 ```bash
   # ansible-playbook -i hosts env_preparation.yml --ask-pass
 ```
+
+
+http://docs.ansible.com/ansible/latest/intro_installation.html

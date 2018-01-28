@@ -1,6 +1,28 @@
 # Liquid Week 2018
 
-Setup lab environment
+## Setup lab environment
+1. Login as liquid user
+2. Generate SSH key
+
+```bash
+  # ssh_keygen (accept default options)
+```
+
+3. Copy the key to localhost server (so you don't need to type passwords)
+
+```bash
+  # ssh-copy-id localhost (type liquid user password)
+```
+
+4. Clone git repository with Ansible liquidweek2018 examples
+
+```bash
+  # git clone https://github.com/osobinp/liquidweek2018.git
+```
+
+5. Follow the instructions from the presentation
+
+
 ---------------------
 Generate and distribute SSH key
 ---------------------
@@ -57,6 +79,12 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
  $ sudo apt-add-repository ppa:ansible/ansible
  $ sudo apt-get update
  $ sudo apt-get install ansible git
+```
+
+Clone git repository with Ansible liquidweek2018 examples
+---------------------
+```bash
+  # git clone https://github.com/osobinp/liquidweek2018.git
 ```
 
 <br>
