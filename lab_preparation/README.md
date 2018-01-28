@@ -21,7 +21,7 @@ http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1708.iso
 # Manual steps on laptop or PC with installed Linux
 
 **In below examples we assume you have root access to the system**
-**Steps can also be done on remote machine - change hosts file and distribute ssh key to take effect*
+
 
 0. Login to VM/cloud instance (as root)
 
@@ -96,5 +96,7 @@ will do the job.
 ```
 
 11. Follow the instructions from the presentation
+
+**Steps can also be done on remote machine - change hosts file and distribute ssh key to take effect*
 
 **Have fun ! :)**
