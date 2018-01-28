@@ -29,6 +29,7 @@
       - ansible
       - git
       - vim
+      - nano
 
   - name: "user | create {{ username }}"
     user:
