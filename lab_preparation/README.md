@@ -1,4 +1,6 @@
-# Setup lab environment @home.
+# Setup lab environment @home
+
+**Make sure you system is connected to the Internet**
 
 ## How to install Oracle VirtualBox
 
