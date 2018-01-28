@@ -6,9 +6,9 @@ Generate and distribute SSH key
 ---------------------
 1. Login as root
 2. Run following command (accept default settings)
-
+```bash
   ssh-keygen
-
+```
 3. Copy SSH key to localhost
 
   ssh-copy-id localhost
@@ -52,7 +52,7 @@ http://docs.ansible.com/ansible/latest/intro_installation.html
  $ sudo apt-add-repository ppa:ansible/ansible
  $ sudo apt-get update
 
- 
+
  $ sudo apt-get install ansible git
 
 
