@@ -16,7 +16,11 @@ Manual steps on laptop or PC with installed Linux (if you don't want to use env_
 
 0. Login to VM (either as root or account which you created during the installation process)
 
-1. Install ansible and git (# sudo yum install git ansible -y)
+1. Install git (use su - or sudo to become root if you are not already)
+
+```bash
+	$ sudo yum install git ansible -y
+```
 
 http://docs.ansible.com/ansible/latest/intro_installation.html
 
@@ -53,7 +57,7 @@ Sometimes simple:
 will do the job. Then
 
 ```bash
-  # export ANSIBLE_HOST_KEY_CHECKING=false
+	# export ANSIBLE_HOST_KEY_CHECKING=false
 	# cd ./liquidweek2018/lab_preparation
 	# ansible-playbook -i hosts env_preparation.yml --ask-pass
 ```
