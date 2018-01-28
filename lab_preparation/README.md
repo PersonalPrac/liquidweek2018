@@ -13,14 +13,67 @@ https://www.youtube.com/watch?v=ZCfRtQ7-bh8
 <br>
 Manual steps on laptop or PC with installed Linux (if you don't want to use env_preparation playbook)
 ---------------------
+
+0. Login to VM (either as root or account which you created during the installation process)
+
+1. Install ansible and git (# sudo yum install git ansible)
 http://docs.ansible.com/ansible/latest/intro_installation.html
 
+2. Generate SSH key (accept default options)
 
-Clone git repository with Ansible liquidweek2018 examples
----------------------
+```bash
+  # ssh_keygen
+```
+
+3. Copy the key to localhost server (so you don't need to type passwords) - type user/root password when prompted
+
+```bash
+  # ssh-copy-id localhost
+```
+
+4. Clone git repository with Ansible liquidweek2018 examples
+
 ```bash
   # git clone https://github.com/osobinp/liquidweek2018.git
 ```
+
+5. Go to lab_preparation and run following command:
+
+**Make sure localhost is included to /etc/ssh/known_hosts**
+https://ivanshn.wordpress.com/2013/04/15/add-a-new-host-to-know_hosts/
+Sometimes simple:
+
+```bash
+  # sudo cp .ssh/known_hosts /etc/ssh/
+```
+
+will do the job
+
+```bash
+  # export ANSIBLE_HOST_KEY_CHECKING=false
+```
+
+```bash
+	# cd ./liquidweek2018/lab_preparation
+	# ansible-playbook -i hosts env_preparation.yml --ask-pass
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. Logout from current user and login to liquid user
 
 ## (Optional) Environment preparation
 This playbook allows to quickly setup testing environment for workshops on Linux system.
