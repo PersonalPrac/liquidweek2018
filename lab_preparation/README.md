@@ -1,22 +1,23 @@
-Setup lab environment @home.
----------------------
+# Setup lab environment @home.
+
 ## How to install Oracle VirtualBox
 
 https://www.virtualbox.org/
 
 https://www.youtube.com/watch?v=63_kPIQUPp8
 
-Importing OVA file to VirtualBox
----------------------
+## Importing OVA file to VirtualBox
+
 https://www.youtube.com/watch?v=ZCfRtQ7-bh8
 
-CentOS ISO files
----------------------
+## CentOS ISO files
+
 http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1708.iso
 
 <br>
-Manual steps on laptop or PC with installed Linux (if you don't want to use env_preparation playbook)
----------------------
+
+##Manual steps on laptop or PC with installed Linux (if you don't want to use env_preparation playbook)
+
 
 0. Login to VM (either as root or account which you created during the installation process)
 
