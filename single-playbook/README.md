@@ -11,4 +11,4 @@ This is very simple playbook which:
 
 Set the name of the user in username variable then run the playbook, like this:
 
-	ansible-playbook -i hosts site.yml
+	# ansible-playbook -i hosts site.yml
