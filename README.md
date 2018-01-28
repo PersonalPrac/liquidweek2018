@@ -7,11 +7,11 @@ Generate and distribute SSH key
 1. Login as root
 2. Run following command (accept default settings)
 
-  # ssh-keygen
+  ssh-keygen
 
 3. Copy SSH key to localhost
 
-  # ssh-copy-id localhost
+  ssh-copy-id localhost
 
 4. Accept the figerprint and type root password
 5. You should be able to login to localhost without typing a password
@@ -22,7 +22,7 @@ Generate and distribute SSH key
 
 Clone git repository with Ansible liquidweek2018 examples
 ---------------------
-  # git clone https://github.com/osobinp/liquidweek2018.git_
+  git clone https://github.com/osobinp/liquidweek2018.git
 
 
 Setup lab environment @home.
