@@ -12,7 +12,6 @@
     expect:
       command: ssh-copy-id "{{ inventory_hostname }}"
       responses:
-        (?i)(yes/no)?: "yes" 
         (?i)password: "{{ root_creds }}"
 
 
