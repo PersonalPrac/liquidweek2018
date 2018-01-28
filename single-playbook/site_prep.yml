@@ -8,7 +8,13 @@
     prompt: "Enter root credentials"
     private: yes
   tasks:
-  - debug: msg="{{ root_creds }} - haslo"
+  - name: "expect | ssh-copy-id to remote host"
+    expect:
+      command: ssh-copy-id "{{ inventory_hostname }}"
+      responses:
+        (?i)(yes/no)?: "yes" 
+        (?i)password: "{{ root_creds }}"
+
 
 - hosts: all
   remote_user: root
@@ -20,7 +26,7 @@
     password: $1$liquid$2ak0W/7tfA.HgMLh3KPRq/
 
   tasks:
-  - name: "authorized_key "
+  - name: "authorized_key | copy to remote host"
     authorized_key:
       user: root
       state: present
