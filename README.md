@@ -4,7 +4,9 @@ Setup lab environment
 ---------------------
 Generate and distribute SSH key
 ---------------------
-1. Login as root
+1. Login as root (from liquid account) <- pomyslec o tym
+  a. If using Cloud instance use provided user account then type; sudo -i
+  b. If using VM use provided root credentials
 2. Run following command (accept default settings)
 ```bash
   # ssh-keygen

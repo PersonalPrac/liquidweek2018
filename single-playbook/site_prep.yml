@@ -19,8 +19,8 @@
 
   - name: "user | create {{ username }}"
     user:
-      name: {{ username }}
-      comment: {{ username }}
+      name: "{{ username }}"
+      comment: "{{ username }}"
       uid: 2000
       group: adm
-      password: {{ password }}
+      password: "{{ password }}"
