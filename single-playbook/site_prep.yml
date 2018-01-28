@@ -1,5 +1,8 @@
 ---
-# This playbook deploys a simple standalone setup. add --ask-pass to distribute the change in prior
+# This playbook deploys a simple standalone environment for liquidweek2018.
+# In order to setup the environment (on master host):
+# export ANSIBLE_HOST_KEY_CHECKING=false
+# ansible-playbook -i hosts env_preparation.yml --ask-pass
 
 - hosts: all
   remote_user: root
