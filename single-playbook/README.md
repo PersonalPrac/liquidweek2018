@@ -21,11 +21,12 @@ On destination server it will:
 2. Create liquid user (used in workshops)
 
 In order to setup the environment:
-
+```bash
   # export ANSIBLE_HOST_KEY_CHECKING=false
-
+```
 Edit hosts with names of hosts which needs to be setup
 
 Run playbook + provide ssh password for root account on remote server(s)
-
+```bash
   # ansible-playbook -i hosts env_preparation.yml --ask-pass
+```
