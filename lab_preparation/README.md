@@ -35,19 +35,13 @@ http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1708.iso
 http://docs.ansible.com/ansible/latest/intro_installation.html
 
 
-3. Clone git repository with Ansible liquidweek2018 examples
-
-```bash
-# git clone https://github.com/osobinp/liquidweek2018.git
-```
-
-4. Generate SSH key (accept default options) from root account
+3. Generate SSH key (accept default options) from root account
 
 ```bash
 # ssh_keygen
 ```
 
-5. Copy the key to localhost server (type root password)
+4. Copy the key to localhost server (type root password)
 
 ```bash
 # ssh-copy-id localhost
@@ -66,7 +60,13 @@ Sometimes simple:
 
 will do the job.
 
-4. Go to lab_preparation and run following command:
+5. Clone git repository with Ansible liquidweek2018 examples
+
+```bash
+# git clone https://github.com/osobinp/liquidweek2018.git
+```
+
+6. Go to lab_preparation and run following command:
 
 ```bash
 # cd ./liquidweek2018/lab_preparation
@@ -74,26 +74,26 @@ will do the job.
 # ansible-playbook -i hosts env_preparation.yml --ask-pass
 ```
 
-5. Logout from current user. Login as liquid user
+7. Logout from current user. Login as liquid user
 
-6. Generate SSH key (accept default options) for liquid user
+8. Generate SSH key (accept default options) for liquid user
 
 ```bash
 # ssh_keygen
 ```
 
-7. Copy the key to localhost server (so you don't need to type passwords) - type liquid user password
+9. Copy the key to localhost server (so you don't need to type passwords) - type liquid user password
 
 ```bash
 # ssh-copy-id localhost
 ```
 
-8. Clone git repository with Ansible liquidweek2018 examples (or copy it from root account)
+10. Clone git repository with Ansible liquidweek2018 examples (or copy it from root account)
 
 ```bash
 # git clone https://github.com/osobinp/liquidweek2018.git
 ```
 
-9. Follow the instructions from the presentation
+11. Follow the instructions from the presentation
 
-10. **Have fun ! :)**
+**Have fun ! :)**
