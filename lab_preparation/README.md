@@ -10,13 +10,13 @@ https://www.youtube.com/watch?v=63_kPIQUPp8
 
 https://www.youtube.com/watch?v=ZCfRtQ7-bh8
 
-## CentOS ISO files
+## CentOS installation ISO
 
 http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1708.iso
 
 <br>
 
-##Manual steps on laptop or PC with installed Linux
+## Manual steps on laptop or PC with installed Linux
 
 **In below examples we assume you have root access to the system**
 
