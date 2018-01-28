@@ -27,8 +27,12 @@ In order to setup the environment:
 
 Edit hosts with name(s) (ip's) of host(s) which needs to be setup
 
-**Make sure all hosts from the scope are included to /etc/ssh/known_hosts**
+```bash
+  # vim hosts
+```
 
+**Make sure all hosts from the scope are included to /etc/ssh/known_hosts**
+https://ivanshn.wordpress.com/2013/04/15/add-a-new-host-to-know_hosts/
 Sometimes simple:
 
 ```bash
