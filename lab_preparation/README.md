@@ -18,8 +18,9 @@ http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1708.iso
 
 ##Manual steps on laptop or PC with installed Linux
 
+**In below examples we assume you have root access to the system**
 
-0. Login to VM/cloud instance (as root) - if you created account with sudo right use sudo instead
+0. Login to VM/cloud instance (as root)
 
 1. Install git
 
@@ -66,14 +67,14 @@ will do the job.
 4. Go to lab_preparation and run following command:
 
 ```bash
-# export ANSIBLE_HOST_KEY_CHECKING=false
 # cd ./liquidweek2018/lab_preparation
+# export ANSIBLE_HOST_KEY_CHECKING=false
 # ansible-playbook -i hosts env_preparation.yml --ask-pass
 ```
 
 5. Logout from current user. Login as liquid user
 
-6. Generate SSH key (accept default options)
+6. Generate SSH key (accept default options) for liquid user
 
 ```bash
 # ssh_keygen
