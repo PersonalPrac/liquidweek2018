@@ -1,10 +1,5 @@
 ---
 # This playbook deploys a TESTING environment for liquidweek2018.
-# In order to setup the environment:
-# export ANSIBLE_HOST_KEY_CHECKING=false
-# edit hosts with names of hosts which needs to be setup
-# Run playbook + provide ssh password for root account on remote server(s)
-# ansible-playbook -i hosts env_preparation.yml --ask-pass
 # by Pawel Osobinski
 
 - hosts: all
