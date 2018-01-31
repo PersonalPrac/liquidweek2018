@@ -2,15 +2,13 @@
 
 **Make sure you system is connected to the Internet**
 
-### How to install Oracle VirtualBox
+### Download and install VMware player
 
-https://www.virtualbox.org/
+https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
 
-https://www.youtube.com/watch?v=63_kPIQUPp8
+### Importing OVA file to VMware player
 
-### Importing OVA file to VirtualBox
-
-https://www.youtube.com/watch?v=ZCfRtQ7-bh8
+https://docs.vmware.com/en/VMware-Workstation-Player/12.0/com.vmware.player.win.using.doc/GUID-DDCBE9C0-0EC9-4D09-8042-18436DA62F7A.html
 
 ### CentOS installation ISO
 
