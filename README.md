@@ -5,7 +5,7 @@
 2. Generate SSH key (accept default options)
 
 ```bash
-# ssh_keygen
+# ssh-keygen
 ```
 
 3. Copy the key to localhost server (so you don't need to type passwords) - type liquid user password when prompted
