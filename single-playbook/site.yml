@@ -1,0 +1,35 @@
+---
+# This playbook presents simple functionality provided by ansible
+# by Pawel Osobinski
+
+- hosts: all
+  become: yes
+  become_method: sudo
+  gather_facts: false
+  vars:
+    motd_net_filename: /etc/issue.net
+
+  tasks:
+
+  # Feel free to change group name and user name
+  - name: "add group devops"
+    group: name=devops
+
+  - name: add user "ansibleops"
+    user: name=ansibleops group=devops home=/home/ansibleops createhome=yes
+
+  - name: "yum | install midnight commander (mc)"
+    yum: name=mc state=latest
+
+  - name: "Add line to /etc/issue (motd)"
+    lineinfile:
+      path: /etc/issue
+      line: 'This is test server for Ansible'
+
+  - name: "copy motd to /etc/issue.net"
+    copy:
+      src: /etc/issue
+      dest: "{{ motd_net_filename }}"
+      owner: root
+      group: root
+      mode: 0644
