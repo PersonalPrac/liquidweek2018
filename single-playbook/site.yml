@@ -24,6 +24,7 @@
   - name: "Add line to /etc/issue (motd)"
     lineinfile:
       path: /etc/issue
+      path: /etc/motd
       line: 'This is test server for Ansible'
 
   - name: "copy motd to /etc/issue.net"
