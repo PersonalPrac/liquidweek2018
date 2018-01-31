@@ -92,8 +92,7 @@ stop() {
   else
     echo -e "\e[00;31mTomcat is not running\e[00m"
   fi
-  iptables -t nat -F
-  iptables -t nat -X
+
   return 0
 }
 
