@@ -6,7 +6,7 @@
 
 https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
 
-### Importing OVA file to VMware player
+### Importing OVF file to VMware player
 
 https://docs.vmware.com/en/VMware-Workstation-Player/12.0/com.vmware.player.win.using.doc/GUID-DDCBE9C0-0EC9-4D09-8042-18436DA62F7A.html
 
