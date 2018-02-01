@@ -21,9 +21,13 @@
   - name: "yum | install midnight commander (mc)"
     yum: name=mc state=latest
 
-  - name: "Add line to /etc/issue (motd)"
+  - name: "Add line to /etc/issue"
     lineinfile:
       path: /etc/issue
+      line: 'This is test server for Ansible'
+
+  - name: "Add line to /etc/motd"
+    lineinfile:
       path: /etc/motd
       line: 'This is test server for Ansible'
 
